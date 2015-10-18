@@ -5,7 +5,7 @@ using std::cout;
 int main() {
 	setlocale(LC_ALL, "Russian");
 	int num = 0, i = 1, pos = 0, max = 0, z = 0;
-	cout << "Ââåäèòå ÷èñëî: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 	cin >> num;
 	pos = num % 10;
 	max = pos;
@@ -16,6 +16,6 @@ int main() {
 		i++;
 		num = num / 10;
 	}
-	cout << "Íàèáîëüøàÿ öèôðà ÷èñëà: " << max << " Åãî ïîçèöèÿ: " << z;
+	cout << "ÐÐ°Ð¸Ð±Ð¾Ð»ÑŒÑˆÐ°Ñ Ñ†Ð¸Ñ„Ñ€Ð° Ñ‡Ð¸ÑÐ»Ð°: " << max << " Ð•Ð³Ð¾ Ð¿Ð¾Ð·Ð¸Ñ†Ð¸Ñ: " << z;
 	return 0;
 }
