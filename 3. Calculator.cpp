@@ -3,7 +3,7 @@
 using std::cout;
 using std::cin;
 int main()
-{	 float z = 0, x = 0, y = 0, C=0, res;
+{	 float z = 0, x = 0, y = 0, C=0;
 	 char oper = 0;
 	setlocale(LC_ALL, "Russian");
 	while (1 > 0) {
