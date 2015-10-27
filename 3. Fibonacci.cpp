@@ -5,7 +5,7 @@ using namespace std;
 int main() {
 	setlocale(LC_ALL, "Russian");
 	int const N = 39;
-	float mas[N], a, b;
+	float mas[N], a, b;// массив???? Зачем????
 	int n;
 	cout << "                         Отношение                         " << endl;
 	cout << "Последующего к предыдущему   |    Предыдущего к последующему" << endl;
