@@ -6,7 +6,7 @@ int main()
 {	 float z = 0, x = 0, y = 0, C=0;
 	 char oper = 0;
 	setlocale(LC_ALL, "Russian");
-	while (1 > 0) {
+	while (1 > 0) { // проще никак????
 		if (C == 0) {
 			cout << "Введите первое число: ";
 			cin >> x;
