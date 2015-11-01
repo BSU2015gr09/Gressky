@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <clocale>
 using std::cout;
 int main(){
@@ -9,8 +9,8 @@ int main(){
 	cout << "Вывод слева-направо: " << "\n";
 	for (int i = 0; i<N; i++){
 		for (int j = 0; j<N; j++){A[i][j] = k;
-								  cout << A[i][j]<<"\t";
-								  k++;}
+					 cout << A[i][j]<<"\t";
+					 k++;}
 		cout << "\n";}
 	cout << "Вывод справа-налево: " << "\n";
 	for (int i = 0; i<N; i++){
