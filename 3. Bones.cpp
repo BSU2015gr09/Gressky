@@ -4,9 +4,10 @@ using std::cout;
 using std::cin;
 using std::endl;
 int main() {
-	int a = 0, b = 0, c = 0, res1 = 0, res2 = 0;
+	int a = 0, b = 0, c = 0, res1 = 0, res2 = 0; // зачем 4 переменных для результата броска?
 	setlocale(LC_ALL, "Russian");
 	cout << "Добро пожаловать в Кости! Победитель тот, у кого выпадет больше очков" << endl;
+	// нет начальной инициализации rand
 	while (1 > 0) {cout << "Для игры введите любое число: ";
 			cin >> c;
 			a = 1 + rand() % 6;
