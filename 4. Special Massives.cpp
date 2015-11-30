@@ -25,8 +25,6 @@ int main(){
 	for (int j = 0; j<N; j++) {
 		if (j % 2 != 0) { for (int i = N - 1; i >= 0; i = i - 1) { cout << A[j][i] << "\t"; } }
 		else { for (int i = 0; i<N; i++) { cout << A[j][i] << "\t"; } }
-		cout << "\n";
-	}
-
+		cout << "\n";	}
 	return 0;
 }
