@@ -9,7 +9,7 @@ int search(int num) {
 		if (A[num] == A[i]) { s++; }
 	}
 		return s;
-		s = 0;
+		s = 0;// –ø–æ—Å–ª–µ return –ø–æ–∑–¥–Ω–æ —É–∂–µ —á—Ç–æ —Ç–æ –¥–µ–ª–∞—Ç—å ))))))
 }
 int maximum(int B[]) {
 	int max = B[0], index = 0;
@@ -21,12 +21,12 @@ int maximum(int B[]) {
 int main() {
 	setlocale(LC_ALL, "Russian");
 	int B[N] = { 0 };
-	cout << "«‡ÔÓÎÌËÚÂ Ï‡ÒÒË‚ ÒËÏ‚ÓÎ‡ÏË: ";
+	cout << "√á√†√Ø√Æ√´√≠√®√≤√• √¨√†√±√±√®√¢ √±√®√¨√¢√Æ√´√†√¨√®: ";
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
 	}
 	for (int i = 0; i < N; i++) {
 		B[i] = search(i);
 	}
-	cout << "›ÎÂÏÂÌÚ, ÍÓÚÓ˚È ÔÓ‚ÚÓˇÂÚÒˇ ˜‡˘Â ‚ÒÂ„Ó: " << A[maximum(B)];
+	cout << "√ù√´√•√¨√•√≠√≤, √™√Æ√≤√Æ√∞√ª√© √Ø√Æ√¢√≤√Æ√∞√ø√•√≤√±√ø √∑√†√π√• √¢√±√•√£√Æ: " << A[maximum(B)];
 }
