@@ -5,6 +5,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	int const N = 10;
 	int A[N], n;
+	// Никита Олегович - где функции????
 	cout << "Заполните массив: ";
 	for (int i = 0; i < N; i++) {
 		cin >> A[i];
