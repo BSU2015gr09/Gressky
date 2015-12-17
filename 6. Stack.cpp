@@ -1,11 +1,11 @@
-﻿#include <iostream>
+#include <iostream>
 #include <clocale>
 using namespace std;
 int const N = 10000;
 int stack[N];
 int top = 0;
 void push(int num) {
-	if (stack[0] == 0) {
+	if (stack[0] == 0) {// Т.е. я не смогу в стек помещать нули???? Что за странный стек )))))
 		stack[top] = num;
 		top++;
 	}
@@ -36,9 +36,9 @@ void view(int ) {
 	cout << "\nВершина стека: " << stack[0];
 }
 
-int main() {
+int main() {о
 	setlocale(LC_ALL, "Russian");
-	int a, b, c, d;
+	int a, b, c, d; // зачем столько переменных???? Смыст стека как раз в том, что можно так: for (i=1;i<100,;i++) {cin >> a;push(a);}
 	cout << "Введите число: ";
 	cin >> a;
 	push(a);
